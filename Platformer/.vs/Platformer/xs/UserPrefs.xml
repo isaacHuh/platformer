@@ -1,18 +1,21 @@
 ﻿<Properties StartupConfiguration="{100AE41E-9853-00A1-0814-C759729749EB}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CameraControl.cs">
     <Files>
-      <File FileName="Assets/Scripts/LevelParserStarter.cs" Line="81" Column="9" />
-      <File FileName="Assets/Scripts/PlayerManager.cs" Line="30" Column="22" />
-      <File FileName="Assets/Scripts/CameraControl.cs" />
-      <File FileName="Assets/Scripts/Manager.cs" Line="41" Column="6" />
+      <File FileName="Assets/Scripts/LevelParserStarter.cs" Line="87" Column="23" />
+      <File FileName="Assets/Scripts/PlayerManager.cs" Line="87" Column="43" />
+      <File FileName="Assets/Scripts/CameraControl.cs" Line="12" Column="76" />
+      <File FileName="Assets/Scripts/Manager.cs" Line="29" Column="29" />
+      <File FileName="Assets/Resources/Test.txt" Line="13" Column="216" />
+      <File FileName="Assets/Resources/Test 1.txt" Line="12" Column="93" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Platformer" expanded="True">
             <Node name="Assets" expanded="True">
+              <Node name="Resources" expanded="True" />
               <Node name="Scripts" expanded="True">
-                <Node name="PlayerManager.cs" selected="True" />
+                <Node name="CameraControl.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -22,7 +25,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="f8ab290c-6467-4dcb-8e4b-1a7e47818e89" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="5868872e-abf9-4eb5-91f3-9be43701808d" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

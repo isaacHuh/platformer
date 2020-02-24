@@ -9,7 +9,7 @@ public class Manager : MonoBehaviour
     int coins = 0;
 
     float currentTime = 0f;
-    float startingTime = 300f;
+    float startingTime = 100f;
 
     public Text timeText;
     public Text coinText;
@@ -24,7 +24,12 @@ public class Manager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        currentTime -= 1 * Time.deltaTime;
+
+        if ((int)currentTime <= 0) {
+            Debug.Log("You Failed");
+        } else {
+            currentTime -= 1 * Time.deltaTime;
+        }
 
         string timeTxt = "Time: " + (int)currentTime;
         timeText.text = timeTxt;
@@ -38,5 +43,9 @@ public class Manager : MonoBehaviour
 
     public void increaseCoins() {
         coins++;
+    }
+
+    public void addScore(int increaseScore) {
+        score += increaseScore;
     }
 }
